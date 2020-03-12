@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".guide"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/hints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1/11"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:id="@+id/images"
+        android:layout_width="358dp"
+        android:layout_height="200dp"
+        android:padding="10dp"
+        android:src="@drawable/p2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/prev_id"
+            android:layout_marginLeft="10dp"
+            android:textSize="25dp"
+            android:text="prev"
+            android:background="@drawable/bg_round"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/next_id"
+        android:layout_marginLeft="50dp"
+        android:textSize="25dp"
+        android:text="next"
+        android:background="@drawable/bg_round"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="#F30C0C"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Report Accidents that if it exactly Happened.Donot provide Fake information."
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_margin="10dp"/>
+
+
+</LinearLayout>

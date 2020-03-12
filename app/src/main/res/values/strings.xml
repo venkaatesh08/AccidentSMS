@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AccidentSMS</string>
+
+    <string name="google_maps_key" translatable="false">AIzaSyBmuESGEpV0tW95_mqZ1D0kK9E_T9aXB-I</string>
+
+    <string name="google_dir_key" translatable="false">AIzaSyCucHbWDocbJoiyoDMsG5MTxGTt9eQ2tHM</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">NLuCZy5PvkELJjcKfJEPKTLk0FIOpOUrFmROvAO8</string>
+    <string name="back4app_client_key">LcDXMij36f8oxX9InDxwshB3kJeNv5ESxwfW1pxT</string>
+
+</resources>
